@@ -15,9 +15,9 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
-    API_ID = int(getenv("API_ID", "16743442"))
-    API_HASH = getenv("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001922732593"))
+    API_ID = int(getenv("API_ID", "27389764"))
+    API_HASH = getenv("API_HASH", "75ecb2e1879c9e805c5aa934a5ff4b5f")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001991974760"))
     DATABASE_URL = getenv(
         "DATABASE_URL",
         "postgres://pjwfzthq:eGF0tslmouCIz1S-FtDs1WGFW0DrIOi8@arjuna.db.elephantsql.com/pjwfzthq",
@@ -28,15 +28,15 @@ class Config(object):
         "mongodb+srv://vortex:yNNrzMsR0BAiI4iY@cluster0.8sizo.mongodb.net/?retryWrites=true&w=majority",
     )
     TOKEN = getenv("TOKEN", "6330964987:AAGGGM2iz-2hTmZLkiigTQgTCHMPePRC6AY")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "SexyNano")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "redeye_alone")
     OWNER_ID = int(getenv("OWNER_ID", "6198858059"))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "JHBots")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "fubuki_supports)
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Madara"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "arq.hamker.dev"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_KEY = "YZXQNZ-TPCRLZ-HKWWKY-SPPYAL-ARQ"
-    DONATION_LINK = "t.me/SexyNano"
+    DONATION_LINK = "t.me/redeye_alone"
     HELP_IMG = "https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg"
     START_VIDEO = "https://graph.org/file/2904688233933fd7e64fc.mp4"
     UPDATES_CHANNEL = "JujutsuHighNetwork"
